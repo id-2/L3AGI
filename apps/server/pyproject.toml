@@ -8,10 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 openai = "0.27.9"
-langchain = "0.0.325"
+langchain = "0.2.3"
 fastapi = { version = "0.99.1", extras = ["all"] }
 requests = "2.31.0"
-pydantic = "1.10.11"
+pydantic = "1.10.13"
 psycopg = "3.1.9"
 jupyter-client = "8.3.0"
 snakemq = "1.6"
